@@ -27,6 +27,7 @@ class Kernel extends HttpKernel {
 		'auth' => 'IGDA\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
 		'guest' => 'IGDA\Http\Middleware\RedirectIfAuthenticated',
+		'language' => 'IGDA\Http\Middleware\Language',
 	];
 
 }

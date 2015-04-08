@@ -11,11 +11,12 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'IndexController@localizator');
 
-Route::get('home', 'HomeController@index');
+// Localization
+Route::group(['prefix' => '{locale}', 'middleware' => 'language'], function()
+{
+  
+	Route::get('/', ['as' => 'index', 'uses' => function() { return view('index'); }]);
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+});

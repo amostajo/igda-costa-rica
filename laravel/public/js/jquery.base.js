@@ -6,7 +6,7 @@
 $(document).ready(function () {
 
   $('.countdown').each(function (index) {
-    $(this)..countdown({until: $(this).data('date')});
+    $(this).countdown({until: $(this).data('date')});
   });
 
 });

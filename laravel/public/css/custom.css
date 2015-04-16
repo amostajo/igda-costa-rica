@@ -3,3 +3,14 @@ body {
 	background-repeat: repeat-x;
 	background-position: top;
 }
+
+.countdown {
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-shadow: 2px 2px 2px #555;
+}
+
+.countdown-section {
+	font-size: 30px;
+}

@@ -16,8 +16,10 @@
 
 @section('content')
 
-	<div class="hero text-center">
-		<div class="countdown" data-date="{{ Config::get('igda.event_date') }}"></div>
+	<div class="row text-center">
+		<div class="col-md-12">
+			<div class="countdown" data-date="{{ Config::get('igda.event_date') }}"></div>
+		</div>
 	</div>
 
 	<div class="row">

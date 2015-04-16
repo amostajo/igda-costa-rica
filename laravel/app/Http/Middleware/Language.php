@@ -34,6 +34,9 @@ class Language {
 	      return $this->redirector->to(implode('/', $segments));
 	  }
     $this->app->setLocale($locale);
+    if ($locale == 'es') {
+			setlocale(LC_ALL, 'es_ES');
+		}
 		return $next($request);
 	}
 

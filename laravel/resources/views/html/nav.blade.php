@@ -21,7 +21,7 @@
 		      <li><a href="#">@lang('global.games')</a></li>
 		      <li><a href="#">@lang('global.presenters')</a></li>
 		      <li><a href="#">@lang('global.sponsors')</a></li>
-		      <li><a href="#">@lang('global.register')</a></li>
+		      <li><a href="{{ route('register') }}">@lang('global.register')</a></li>
         
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->

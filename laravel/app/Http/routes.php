@@ -18,5 +18,6 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'language'], function()
 {
   
 	Route::get('/game-fest', ['as' => 'index', 'uses' => function() { return view('index'); }]);
+	Route::get('/game-fest/registro', ['as' => 'register', 'uses' => function() { return view('register'); }]);
 
 });

@@ -7,6 +7,9 @@
 @section('scripts')
 	<script src="{{ asset('/include/countdown/jquery.plugin.min.js') }}"></script>
 	<script src="{{ asset('/include/countdown/jquery.countdown.min.js') }}"></script>
+	@if (App::getLocale() == 'es')
+		<script src="{{ asset('/include/countdown/jquery.countdown-es.js') }}"></script>
+	@endif
 @stop
 
 @section('title', trans('global.event', ['year' => '2015']))

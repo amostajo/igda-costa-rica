@@ -18,7 +18,7 @@
 
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3">
-			<img src="{{ asset('img/LogoGameFest.png') }}" class="img-responsive" alt="@lang('global.igder_cr')">
+			<img src="{{ asset('img/GFCLogo_x555.png') }}" class="img-responsive" alt="@lang('global.igder_cr')">
 		</div>
 	</div>
 

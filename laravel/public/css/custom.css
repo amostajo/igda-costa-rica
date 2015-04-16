@@ -6,10 +6,13 @@ body {
 }
 
 .countdown {
-  background-color: transparent;
+  background-color: #337ab7;
   border: none;
   color: white;
   text-shadow: 2px 2px 2px #555;
+  overflow: auto;
+  padding: 35px;
+  border-radius: 10px;
 }
 
 .countdown-section {
@@ -31,4 +34,12 @@ body {
 .navbar-nav {
   background-color: rgba(0,0,0,0.2);
   border-radius: 7px;
+}
+
+.row.holder-logo {
+  margin-top: 20px;
+}
+
+.row.holder-countdown {
+  margin-top: 40px;
 }

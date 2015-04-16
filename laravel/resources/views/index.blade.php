@@ -16,21 +16,15 @@
 
 @section('content')
 
-	<div class="row">
+	<div class="row holder-logo">
 		<div class="col-md-6 col-md-offset-3">
 			<img src="{{ asset('img/GFCLogo_x555.png') }}" class="img-responsive" alt="@lang('global.igder_cr')">
 		</div>
 	</div>
 
-	<div class="row text-center">
+	<div class="row holder-countdown">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="countdown" data-date="{{ Config::get('igda.event_date') }}"></div>
-		</div>
-	</div>
-
-	<div class="row">
-		<div class="col-md-4 col-md-offset-4 text-center">
-			<a class="btn btn-primary btn-lg btn-block" role="button">@lang('global.igda')</a>
 		</div>
 	</div>
 

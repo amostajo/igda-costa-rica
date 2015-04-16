@@ -15,12 +15,15 @@
 @section('title', trans('global.event', ['year' => '2015']))
 
 @section('content')
+
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4">
-			<img src="{{ asset('img/LogoGameFest') }}">
+			<img src="{{ asset('img/LogoGameFest.png') }}" class="img-responsive" alt="@lang('global.igder_cr')">
 		</div>
+	</div>
+
 	<div class="row text-center">
-		<div class="col-md-12">
+		<div class="col-md-8  col-md-offset-2">
 			<div class="countdown" data-date="{{ Config::get('igda.event_date') }}"></div>
 		</div>
 	</div>

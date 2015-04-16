@@ -13,8 +13,14 @@
 
 @section('content')
 
-	<div class="hero">
+	<div class="hero text-center">
 		<div class="countdown" data-date="{{ Config::get('igda.event_date') }}"></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 col-md-offset-4 text-center">
+			<a class="btn btn-primary btn-lg btn-block" role="button">@lang('global.igda')</a>
+		</div>
 	</div>
 
 @stop

@@ -74,8 +74,77 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ">
-					<h1>@lang('gamefest.about')</h1>
+					<h1 class="transformed">@lang('gamefest.about')</h1>
 					<p>@lang('gamefest.about_message')</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="last-event">
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 ">
+					<h2 class="transformed">@lang('gamefest.last_year')</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-7">
+					<p>@lang('gamefest.last_year_message')</p>
+					<div class="video-container">
+						<iframe src="https://www.youtube.com/embed/wVS0vvxPpuM" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<p>
+						<blockquote>
+							<p>@lang('gamefest.press_quote_1')</p>
+							<footer>
+								<a href="http://www.ameliarueda.com/nota/14-videojuegos-hechos-por-ticos-se-expondran-este-sabado">@lang('gamefest.link')</a> 
+								@lang('gamefest.in') <cite title="Source Title">@lang('gamefest.press_cite_1')</cite>
+							</footer>
+						</blockquote>
+					</p>
+					<p>
+						<blockquote>
+							<p>@lang('gamefest.press_quote_2')</p>
+							<footer>
+								<a href="http://www.nacion.com/tecnologia/videojuegos/videojuegos-Costa_Rica-TreeInteractive-Green_Lava_Studios_0_1446455538.html">@lang('gamefest.link')</a> 
+								@lang('gamefest.in') <cite title="Source Title">@lang('gamefest.press_cite_2')</cite>
+							</footer>
+						</blockquote>
+					</p>
+					<p>
+						<blockquote>
+							<p>@lang('gamefest.press_quote_3')</p>
+							<footer>
+								<a href="https://www.larepublica.net/app/cms/www/index.php?pk_articulo=533321977">@lang('gamefest.link')</a> 
+								@lang('gamefest.in') <cite title="Source Title">@lang('gamefest.press_cite_3')</cite>
+							</footer>
+						</blockquote>
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="register">
+
+		<div class="container">
+			<div class="row-fluid">
+				<h2 class="transformed">@lang('gamefest.register')</h2>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="panel panel-default">
+					  <div class="panel-body">
+					    @include('gamefest.forms.register')
+					  </div>
+					</div>
 				</div>
 			</div>
 		</div>

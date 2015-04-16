@@ -80,7 +80,40 @@ body {
   text-align: left;
 }
 
+.program,
+.last-event,
+.register {
+  padding: 6% 0;
+}
+
 .program {
   background-color: #f2f2f2;
-  padding: 40px 0;
+}
+
+.last-event {
+  background-color: #fff;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+h1.transformed,
+h2.transformed {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-top: 0;
+  margin-bottom: 15px;
 }

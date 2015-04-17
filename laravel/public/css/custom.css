@@ -82,11 +82,18 @@ body {
 
 .program,
 .last-event,
-.register {
+.register,
+.igda {
   padding: 6% 0;
 }
 
-.program {
+footer {
+  padding: 10px 0;
+}
+
+.program,
+.igda,
+footer {
   background-color: #f2f2f2;
 }
 

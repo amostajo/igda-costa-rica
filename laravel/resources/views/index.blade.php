@@ -20,7 +20,7 @@
 
 		<div class="row holder-logo">
 			<div class="col-md-6 col-md-offset-3">
-				<img src="{{ asset('img/GFCLogo_x555.png') }}" class="img-responsive" alt="@lang('global.igder_cr')">
+				<img src="{{ asset('img/GFCLogo_x555.png') }}" class="img-responsive" alt="@lang('global.igda_cr')">
 			</div>
 		</div>
 
@@ -70,7 +70,6 @@
 @section('content-no-container2')
 
 	<div class="program">
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 ">
@@ -79,11 +78,9 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<div class="last-event">
-
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 ">
@@ -128,11 +125,9 @@
 				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<div class="register">
-
 		<div class="container">
 			<div class="row-fluid">
 				<h2 class="transformed">@lang('gamefest.register')</h2>
@@ -148,7 +143,20 @@
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div class="igda">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="{{ asset('img/igda_cr_logo.png') }}" class="img-responsive" alt="@lang('global.igda_cr')">
+				</div>
+				<div class="col-md-8">
+					<h1 class="transformed">@lang('gamefest.igda')</h1>
+					<p>@lang('gamefest.igda_message')</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 @stop

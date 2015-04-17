@@ -39,4 +39,6 @@ return [
 	'press_cite_2'				=> 'Nacion.com',
 	'press_quote_3'				=> 'Los fiebres de los videojuegos tienen una cita este sábado en la Casa de la Cultura José Figueres Ferrer durante II Muestra de Desarrollo de Video Juegos Costarricenses',
 	'press_cite_3'				=> 'La Republica',
+	'igda'								=> 'IGDA Capitulo Costa Rica',
+	'igda_message'				=> 'IGDA Costa Rica representa a la creciente comunidad en Costa Rica de desarrolladores de juegos, aplicaciones y cualquiera que este interesado en el desarrollo de medios interactivos.</p><p>Somos un grupo abierto y organizamos diversas actividades desde muestras de juegos a reuniones sociales, game jams y otros eventos para desarrolladores. Unase a nosotros en nuestro constante esfuerzo de unir a la comunidad de desarrolladores, hacer nuevos amigos, aprender cosas nuevas y convertirse en un mejor desarrollador.</p><p>Impulsamos a otros grupos de desarrolladores a reunirse con nosotros! Únase y diviertase!',
 ];

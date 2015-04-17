@@ -80,6 +80,14 @@ body {
   text-align: left;
 }
 
+.hero .info .item a {
+  color: white;
+}
+
+.hero .info .item a:hover {
+  color: white;
+}
+
 .program,
 .last-event,
 .register,
@@ -123,4 +131,30 @@ h2.transformed {
   font-size: 35px;
   margin-top: 0;
   margin-bottom: 15px;
+}
+
+@media only screen and ( max-width: 1264px ) {
+  .hero {
+    min-height: 500px;
+  }
+  .countdown {
+    padding: 28px;
+  }
+  .countdown-section {
+    font-size: 24px;
+  }
+
+}
+
+@media only screen and ( max-width: 1079px ) {
+  .hero {
+    min-height: 380px;
+  }
+  .countdown {
+    padding: 22px;
+  }
+  .countdown-section {
+    font-size: 15px;
+  }
+
 }

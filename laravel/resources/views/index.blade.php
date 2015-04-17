@@ -56,7 +56,7 @@
 						<span class="glyphicon glyphicon-map-marker"></span> @lang('gamefest.location')
 					</span>
 					<span class="value">
-						<span class="event-location">@lang('gamefest.location_value')</span> 
+						<span class="event-location"><a href="https://www.google.co.cr/maps/place/Centro+Nacional+de+la+Cultura/@9.9358799,-84.0723647,18z/data=!4m7!1m4!3m3!1s0x8fa0e363abf205c7:0xb88620bc0cf731e3!2sCentro+Nacional+de+la+Cultura!3b1!3m1!1s0x8fa0e363abf205c7:0xb88620bc0cf731e3?hl=en">@lang('gamefest.location_value')</a></span> 
 					</span>
 				</span>
 

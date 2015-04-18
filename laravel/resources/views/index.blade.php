@@ -69,12 +69,23 @@
 
 @section('content-no-container2')
 
+	<div class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h1 class="transformed">@lang('gamefest.about')</h1>
+					<p>@lang('gamefest.about_message')</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="program">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 ">
-					<h1 class="transformed">@lang('gamefest.about')</h1>
-					<p>@lang('gamefest.about_message')</p>
+				<div class="col-md-12">
+					<h1 class="transformed">@lang('global.program')</h1>
+					@include('gamefest.program')
 				</div>
 			</div>
 		</div>
@@ -83,7 +94,7 @@
 	<div class="last-event">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 ">
+				<div class="col-md-12">
 					<h2 class="transformed">@lang('gamefest.last_year')</h2>
 				</div>
 			</div>

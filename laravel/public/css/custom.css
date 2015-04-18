@@ -91,6 +91,7 @@ body {
 .program,
 .last-event,
 .register,
+.about,
 .igda {
   padding: 6% 0;
 }
@@ -99,12 +100,13 @@ footer {
   padding: 10px 0;
 }
 
-.program,
 .igda,
+.about,
 footer {
   background-color: #f2f2f2;
 }
 
+.program,
 .last-event {
   background-color: #fff;
 }

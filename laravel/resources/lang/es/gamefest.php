@@ -47,7 +47,7 @@ return [
 	'exhibit'							=> 'Exhibición',
 	'exhibit_games'				=> 'Exhibición de juegos.',
 	'aperture'						=> 'Apertura',
-	'aperture_message'		=> 'Palabras de Jose Pablo Cachón.',
+	'aperture_message'		=> 'Palabras de Jose Pablo Chacón.',
 	'closure'							=> 'Cierre',
 	'tba'									=> 'TBA',
 	'conferences'					=> 'Conferencias',

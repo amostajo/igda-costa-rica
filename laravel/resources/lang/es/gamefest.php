@@ -27,7 +27,7 @@ return [
 	'hour' 								=> 'Hour',
 	'topic' 							=> 'Tema',
 	'speaker' 						=> 'Presentador',
-	'hours_value' 				=> '10:00 am - 5:00 pm',
+	'hours_value' 				=> '9:00 am - 5:00 pm',
 	'location_value' 			=> 'CENAC',
 	'press' 							=> 'Prensa',
 	'link' 								=> 'Enlace',
@@ -54,6 +54,6 @@ return [
 	'conference1'					=> 'Realidad Virtual como medio narrativo.',
 	'conference2'					=> 'Proceso de creación de su documental “Desarrolllo de video juego en paises en vías de desarrollo”.',
 	'conference3'					=> 'Conferencias',
-	'conference4'					=> 'Conferencias',
+	'conference4'					=> 'Color Guardians, de mobile a PS4.',
 	'conference5'					=> 'Conferencias',
 ];

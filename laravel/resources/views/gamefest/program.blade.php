@@ -3,6 +3,7 @@
 
 	<div class="col-md-4">
 		<h3>@lang('gamefest.exhibit')</h3>
+		<br><br>
 		<table class="table">
 			<tbody>
 				<tr>

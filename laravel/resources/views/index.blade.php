@@ -72,7 +72,7 @@
 	<div class="about">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8">
+				<div class="col-md-8 col-md-offset-2">
 					<h1 class="transformed">@lang('gamefest.about')</h1>
 					<p>@lang('gamefest.about_message')</p>
 				</div>
@@ -185,7 +185,7 @@
 					<img src="{{ asset('img/igda_cr_logo.png') }}" class="img-responsive" alt="@lang('global.igda_cr')">
 				</div>
 				<div class="col-sm-8">
-					<h1 class="transformed">@lang('gamefest.igda')</h1>
+					<h2 class="transformed">@lang('gamefest.igda')</h2>
 					<p>@lang('gamefest.igda_message')</p>
 				</div>
 			</div>

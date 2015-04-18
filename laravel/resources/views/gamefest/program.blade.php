@@ -33,36 +33,46 @@
 		<table class="table">
 			<thead>
 				<tr>
-					<th>Hora</th>
-					<th>Presentador</th>
-					<th>Tema</th>
+					<th>@lang('gamefest.hour')</th>
+					<th>@lang('gamefest.speaker')</th>
+					<th>@lang('gamefest.topic')</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<td>10:00 am</td>
 					<td>Alberto Carrillo</td>
-					<td>Realidad Virtual como medio narrativo.</td>
+					<td>@lang('gamefest.conference1')</td>
 				</tr>
 				<tr>
 					<td>11:00 am</td>
 					<td>Yuan-Hsi Chiang</td>
-					<td>“Desarrolllo de video juego en paises en vías de desarrollo”..</td>
+					<td>@lang('gamefest.conference2')</td>
 				</tr>
 				<tr>
 					<td>12:00 am</td>
 					<td>Microsoft</td>
-					<td>TBA</td>
+					<td>@lang('gamefest.tba')</td>
 				</tr>
 				<tr>
 					<td>1:00 pm</td>
 					<td>Fair Play Labs</td>
-					<td>Color Guardians, de mobile a PS4.</td>
+					<td>@lang('gamefest.conference4')</td>
 				</tr>
 				<tr>
 					<td>2:00 pm</td>
 					<td>Green Lava Studio</td>
-					<td>TBA</td>
+					<td>@lang('gamefest.tba')</td>
+				</tr>
+				<tr>
+					<td>3:00 pm</td>
+					<td>@lang('gamefest.tba')</td>
+					<td>@lang('gamefest.tba')</td>
+				</tr>
+				<tr>
+					<td>4:00 pm</td>
+					<td>@lang('gamefest.tba')</td>
+					<td>@lang('gamefest.tba')</td>
 				</tr>
 			</tbody>
 		</table>

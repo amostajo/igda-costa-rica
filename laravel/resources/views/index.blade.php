@@ -91,6 +91,28 @@
 		</div>
 	</div>
 
+	<div class="games">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="transformed">@lang('global.games')</h2>
+					@lang('gamefest.tba')
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="sponsors">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="transformed">@lang('global.sponsors')</h2>
+					@lang('gamefest.tba')
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="last-event">
 		<div class="container">
 			<div class="row">

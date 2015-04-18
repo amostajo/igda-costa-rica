@@ -1,5 +1,5 @@
 body {
-	background-image: url('../img/GameFest2015background_repeat.png');
+	background-image: url('../img/GameFest2015background_repeat.jpg');
 	background-repeat: repeat-y;
 	background-position: top;
   background-attachment: fixed;
@@ -92,8 +92,6 @@ body {
 .last-event,
 .register,
 .about,
-.games,
-.sponsors,
 .igda {
   padding: 6% 0;
 }
@@ -104,8 +102,6 @@ footer {
 
 .igda,
 .about,
-.games,
-.sponsors,
 footer {
   background-color: #f2f2f2;
 }
